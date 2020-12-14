@@ -1,0 +1,80 @@
+body {
+  background-color: #ccf6c8;
+  text-align: center;
+
+}
+
+h1{
+  color: #5aa469;
+  font-size: 200%;
+    font-family:Lobster;
+}
+
+h2{
+    color: #5aa469;
+    font-size: 2em;
+}
+
+h3{
+    color: #5aa469;
+    font-size: 1.5em;
+    text-align: center;
+    font-family:monospace;
+}
+
+hr {
+border-bottom-style:dotted;
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 7px;
+  width: 10%;
+}
+
+.img{
+  height: 200px;
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+}
+
+.info {
+  padding-top:100px;
+  margin: 0;
+
+}
+
+.Hill{
+  position:absolute;
+  height:100px;
+  width: 200px;
+  top: 50px;
+  left: 2px;
+}
+.top{
+  position: absolute;
+  right: 400px;
+  top: 10px;
+}
+.bottom{
+  position: absolute;
+  left: 400px;
+
+}
+.mountain{
+  height: 400px;
+  width: 400px;
+  align-items: center;
+}
+
+.Mahabaleshwar-info{
+  width: 80%;
+  margin: auto;
+    line-height: 1.5;
+}
+
+.tourist-places{
+  width: 60%;
+  text-align: left;
+  line-height: 2;
+  margin: 50px auto;
+}
