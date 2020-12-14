@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Feedback</title>
+      <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+
+	<h2>Enter your Details</h2>
+<form action="mailto:shrutikachoudhari1300@gmail.com" method="post">
+	<fieldset>
+	<legend><strong>NAME detail</strong></legend>
+
+	FIRST NAME:
+	<input type="text" name=firstname"><br><br>
+	MIDDLE NAME:
+	<input type="text" name=middlename"><br><br>
+	LAST NAME:
+	<input type="text" name=lastname"><br><br>s
+
+	GENDER: <input type="radio" name="gender">Male
+			<input type="radio" name="gender">Female
+			<input type="radio" name="gender">Other<br><br>
+
+	ADDRESS:<br>
+	Area<input type="text" name=area"><br><br>
+	Street<input type="text" name=street"><br><br>
+	Landmark<input type="text" name=Landmark"><br><br>
+	City
+	<select name="city">
+		<option value="pune">Pune</option>
+		<option value="mumbai">Mumbai</option>
+		<option value="nashik">Nashik</option>
+		<option value="aurangabad">Aurangabad</option>
+		<option value="buldhana">Buldhana</option>
+		<option value="beed">Beed</option>
+		<option value="Satara">Satara</option>
+		<option value="Sangli">Sangli</option>
+	</select><br><br>
+	State
+	<select name="state">
+		<option values="Andhra pradesh">Andhra pradesh</option>
+		<option values="Bihar">Bihar</option>
+		<option values="chandigaerh">Chandigarh</option>
+		<option values="Delhi">Delhi</option>
+		<option values="Goa">Goa</option>
+		<option values="Mharashtra" selected>Mharashtra</option>
+		<option values="Punjab">Punjab</option>
+		<option values="sikkim">Sikkim</option>
+		<option values="Tripura">Tripura</option>
+	</select>
+	<br><br>
+
+	email:
+	<input type="email" name="mail">
+	<br><br>
+	Password:
+	<input type="password" name="password"><br><br>
+	DOB:
+	<input type ="date" name="DOB">
+	<br><br>
+	Attach photo:
+	<input type="file" name="choose file"><br><br>
+	Id Card:
+	<input type="checkBox" name="id" values="AdharCard">Adhar Card
+	<input type="checkBox" name="id" values="Pan Card">Pan Card
+	<input type="checkBox" name="id" values="Voter Id Card">voter id Card
+	<input type="checkBox" name="id" values="Driving Liecnse">Driving Liecnse
+	<br><br>
+	Number of vehicles you have:
+	<input type="number" name="quantity" min="1" max="10"><br><br>
+	Rating for our site:
+	<input type="range" name="rating" min="1" max="10"><br><br>
+  What you feel about the site:
+  <textarea rows = "5" cols = "60" name = "description">
+      </textarea><br>
+</fieldset>
+	<input type="Submit" name="">
+	<input type="Reset" name="Reset">
+
+</form>
+  </body>
+</html>
